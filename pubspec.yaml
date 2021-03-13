@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +30,9 @@ flutter:
         pluginClass: GoSellSdkFlutterPlugin
       ios:
         pluginClass: GoSellSdkFlutterPlugin
+      web:
+        pluginClass: GoSellSdkFlutterPlugin
+        fileName: GoSellSdkFlutterPlugin.dart
 # Old Scheme for flutter plugin
 # The following section is specific to Flutter.
 # flutter:
